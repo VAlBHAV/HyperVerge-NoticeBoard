@@ -1,0 +1,35 @@
+.google-meet-widget {
+  background: #fca17d;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px; 
+  height: 200px; /* Set height to 250px */
+  display: flex; /* Use flexbox to center content */
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  margin: auto; /* Center widget horizontally */
+  overflow: hidden; /* Hide overflow content */
+}
+.google-meet-widget .MuiTypography-root {
+  color: #ffffff; /* Set text color to white */
+}
+
+.google-meet-widget .MuiTextField-root {
+  color: #ffffff; /* Set text color inside TextField */
+}
+
+.google-meet-widget .MuiButton-root {
+  color: #ffffff; /* Set text color of the button */
+  background-color: #ff5722; /* Optional: Set a custom background color for the button */
+}
+.google-meet-widget .MuiInputBase-input {
+  color: #ffffff; /* Set text color inside the input */
+}
+.google-meet-widget .MuiInputBase-input::placeholder {
+  color: #ffffff; /* Set placeholder color to white */
+  opacity: 1; /* Ensure full opacity */
+}
+  
